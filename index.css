@@ -1,0 +1,80 @@
+﻿body
+{
+    background-color:darkslategrey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.main>div{
+    margin-bottom:20px;
+}
+.ele11,.ele12,.ele2,.ele31,.ele32,.ele41,.ele42,.ele5,.ele6,.ele71,.ele72{
+    
+    padding: 30px;
+}
+.ele2,.ele3,.ele5,.ele6{
+    margin-left: 360px;
+    width: 800px;
+}
+.ele11, .ele12, .ele41, .ele42,.ele511,.ele512,.ele611,.ele612,.ele71,.ele72 {
+    width: 400px;
+}
+.ele1,.ele21,.ele212,.ele3,.ele4,.ele51,.ele61,.ele7{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+}
+.ele1 ,.ele4,.ele7{
+    margin-left: 360px;
+}
+.ele21, .ele31, .ele32,.ele511,.ele611 {
+    //margin-left: 400px;
+    text-align: left;
+}
+.ele512 {
+    text-align:center;
+}
+.ele212{
+    margin-left:5px;
+    list-style-type:none;
+}
+div li{
+    margin:30px;
+    padding:5px;
+}
+.main_head{
+    color:red;
+}
+.header {
+    margin-left: 600px;
+}
+.header i, .main_head {
+    font-size: 60px;
+}
+.header i{
+    color:darkgray;
+}
+.sub_head,.norm {
+    font-size: 20px;
+}
+div i,.sub_head_big{
+    font-size:40px;
+}
+.ele5 i,.ele6 i,.ele7 i{
+    font-size:80px;
+}
+span{
+    color:white;
+}
+.sub_head_small {
+    font-size: 30px;
+}
+.ele11,.ele42,.ele6{
+    background-color:orange;
+}
+.ele12, .ele3, .ele5,.ele71 {
+    background-color: deepskyblue;
+}
+.ele2,.ele41,.ele72 {
+    background-color: orangered;
+}
